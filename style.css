@@ -1,0 +1,181 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@1&display=swap');
+
+
+
+
+body {
+    background: rgb(250, 246, 246);
+
+    margin: 0 auto;
+}
+
+
+div {
+    width: 100%;
+    margin: 50px;
+    font-size: 25px;
+
+
+}
+
+table {
+    margin: 0 auto;
+
+}
+
+table,
+th,
+td {
+    border: 3px solid rgb(5, 93, 96);
+    border-collapse: collapse;
+    padding: 8px;
+    text-align: center;
+}
+
+tbody {
+    font-weight: 500;
+}
+
+tfoot {
+    font-weight: 700;
+}
+
+caption {
+    margin: 10px;
+    font-size: 30px;
+    font-weight: 550;
+    font-family: 'Croissant One', cursive;
+    letter-spacing: 0.5;
+    color: rgb(38, 34, 34);
+
+}
+
+.main {
+    width: 900px;
+    height: 650px;
+    background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.9)), url("solar.jpg");
+    background-repeat: round;
+    background-size: contain;
+    margin: 200px auto;
+    padding: 50px;
+    font-size: 25px;
+    border: 5px solid rgb(0, 0, 0);
+}
+
+.main-table {
+    color: antiquewhite;
+    margin: 0 auto;
+}
+
+.main-table caption {
+    font-size: 35px;
+    color: rgb(255, 249, 249);
+    border: 5px solid rgb(5, 93, 96);
+    border-bottom: none;
+    border-collapse: collapse;
+    margin: 0;
+    padding: 5px;
+}
+
+.main-table td {
+    padding: 10px;
+    color: white;
+}
+
+.main-table th {
+    font-weight: 900;
+    color: rgb(226, 227, 155);
+}
+
+p {
+    font-size: 48px;
+    text-align: center;
+    margin: 200px auto;
+    margin-bottom: 0;
+    font-family: 'Croissant One', cursive;
+    font-weight: 900;
+    background: linear-gradient(#f93808, #77f346, #630b03, #9305eb);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+}
+
+.list {
+    width: 95%;
+    /* height: 700px; */
+    margin: 20px auto;
+    margin-bottom: 80px;
+    /* background-color: red; */
+    /* background-image: linear-gradient(135deg, #5EFCE8 10%, #736EFE 100%); */
+    background-image: linear-gradient(135deg, #64b3f4 10%, #c2e59c 100%);
+    
+
+
+}
+
+.list>h1 {
+    text-align: center;
+    font-family: 'Croissant One', cursive;
+    color: rgb(1, 53, 58);
+    margin-top: 10px 5px;
+}
+
+.list h2 {
+    text-align: center;
+    font-family: 'Croissant One', cursive;
+    color: rgb(237, 231, 55);
+}
+
+
+.list ul {
+    color: rgb(244, 243, 226);
+
+
+}
+
+
+
+.list li {
+
+    font-size: 28px;
+    line-height: 1.5;
+    margin-top: 8px;
+    font-family: 'DM Serif Display', serif;
+
+}
+
+.list div {
+    width: 330px;
+    height: 500px;
+    color: bisque;
+    border: 5px solid #c3dc45;
+    border-radius: 5%;
+    overflow-y: scroll;
+    display: inline-block;  
+}
+
+.north {
+    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(34, 72, 69, 0.9)), url("taj.jpg");
+    background-size: cover;
+}
+
+.south {
+    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(34, 72, 69, 0.7)), url("south.jpg");
+    background-size: contain;
+}
+
+
+.west {
+    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(34, 72, 69, 0.7)), url("statue.jpg");
+    background-size: cover;
+}
+
+.east {
+    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(34, 72, 69, 0.7)), url("zoo.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+summary {
+    text-decoration: underline;
+    color: #e0df21;
+}
